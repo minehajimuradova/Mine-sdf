@@ -1,0 +1,299 @@
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+.head, .prg1, .section1, .section2, .section3, .section4, .h2-4 {
+    color: hsl(192, 100%, 9%);
+}
+
+.header {
+    margin: 0;
+    padding: 100px 120px 0 120px;
+}
+
+.div1, .head, .div2, .section1, .section2, .section3, .section4, .footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    justify-content: space-between;
+}
+
+.btn1 {
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+
+.head {
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 230px auto 50px;
+}
+
+.prg1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 50px 400px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div2 {
+    justify-content: center;
+}
+
+.btn2 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 1000px;
+    width: 400px;
+    height: 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+}
+
+.img2 {
+    display: block;
+    margin: 110px auto;
+}
+
+.section1 {
+    justify-content: space-around;
+}
+
+.left-h1, .right-h1 {
+    font-family:'Poppins', sans-serif;
+    font-size: 100px;
+    margin: 1px;
+}
+
+.left-p, .right-p {
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section2 {
+    margin: 0;
+    background: hsl(207, 100%, 98%);
+}
+
+.div3 {
+    margin: auto 80px auto 120px;
+}
+
+.h2-1 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prg-2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.img5 {
+    width: 600px;
+    margin: auto 120px;
+}
+
+.imgbg1 {
+    margin: 100px auto 0;
+    width: 100%;
+    position: relative;
+    bottom: -4px;
+}
+
+.imgbg2 {
+    margin: 0 auto 100px;
+    width: 100%;
+}
+
+.section3 {
+    margin: 100px 120px;
+}
+
+.div4 {
+    margin: auto 0 auto 180px;
+}
+
+.h2-2 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prg-3 {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.img6 {
+    width: 600px;
+    margin: auto;
+}
+
+.section4 {
+    margin: 0;
+    background: hsl(207, 100%, 98%);
+}
+
+.div5 {
+    margin: auto 60px auto 120px;
+}
+
+.h2-3 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prg-4 {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.img7 {
+    width: 600px;
+    margin: auto 120px;
+}
+
+.section5 {
+    text-align: center;
+}
+
+.h2-4 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn3 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 1000px;
+    width: 400px;
+    height: 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+}
+
+.imgbg3 {
+    margin: 200px auto 0;
+    width: 100%;
+    position: relative;
+    bottom: -5px;
+}
+
+.footer {
+    margin: 0;
+    justify-content: space-between;
+    color: hsl(207, 100%, 98%);
+    background: hsl(192, 100%, 9%);
+}
+
+.prg-5 {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 20px;
+    margin: 20px 150px auto 0;
+}
+
+.div6 {
+    margin: 70px 0 80px 120px;
+}
+
+.div7 {
+    margin: 50px 120px 20px 200px;
+}
+.prg-6, .prg-7 {
+    margin: 15px 20px;
+}
+
+.h3-1 {
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.prg-8 {
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 20px;
+    margin: auto 260px auto 0;
+}
+
+.input {
+    background-color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 320px;
+    height: 40px;
+}
+
+.btn4 {
+    justify-content: space-between;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px;
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin: 60px 5px 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:white;
+    color:hsl(192, 100%, 9%);
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+   
+
